@@ -1,0 +1,148 @@
+body
+{
+  background-image: url(https://images.pexels.com/photos/462129/pexels-photo-462129.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgba(255, 255, 255, 0.85);
+  text-align: center;
+  font-size: 17px;
+  margin: 0;
+  padding: 20px;
+}
+.sub
+{
+  margin: 0 auto;
+  width: 80%;
+  max-width: 700px;
+  background: linear-gradient(135deg, rgb(70, 160, 210), rgb(0, 105, 148));
+  padding: 20px;
+  border-radius: 10px;
+}
+h1
+{
+  font-size: 40px;
+  padding-top: 25px;
+  font-family: 'Poppins', sans-serif;
+  color: #E0F7FA;
+  margin-bottom: 10px;
+}
+p
+{
+  font-family: 'Dancing Script', cursive;
+  font-style: italic;
+  margin: 0 0 20px 0;
+}
+h3
+{
+  font-family: 'Quicksand', sans-serif;
+  margin: 15px 0 5px 0;
+  width: 100%;
+  text-align: center;
+}
+.info
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+.info label
+{
+  width: 370px;
+  margin: 5px 0;
+}
+.info input
+{
+  width: 370px;
+  height: 35px;
+  border: 0;
+  background-color: #E0F7FA;
+  font-size: 16px;
+  padding: 5px 10px;
+  margin: 5px 0 0 0;
+  display: block;
+}
+.info input::placeholder,
+textarea::placeholder
+{
+  font-family: 'Quicksand', sans-serif;
+  font-style: italic;
+}
+fieldset
+{
+  border: none;
+  padding: 0;
+  margin: 20px auto;
+  width: 370px;
+}
+.button
+{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  margin: 0 auto;
+}
+.button label
+{
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 8px 0;
+  padding-left: 0;
+}
+input[type="radio"],
+input[type="checkbox"]
+{
+  margin: 0;
+  width: 18px;
+  height: 18px;
+}
+select
+{
+  width: 370px;
+  padding: 10px;
+  border: 1px solid skyblue;
+  border-radius: 5px;
+  background-color: #E0F7FA;
+  font-family: 'Quicksand', sans-serif;
+  margin: 10px auto;
+  display: block;
+}
+textarea
+{
+  width: 370px;
+  border: 1px solid skyblue;
+  border-radius: 5px;
+  background-color: #E0F7FA;
+  font-family: Arial, sans-serif;
+  font-size: 17px;
+  padding: 10px;
+  margin: 0 auto;
+  display: block;
+}
+input[type="submit"]
+{
+  border: 1px solid skyblue;
+  border-radius: 5px;
+  background-color: skyblue;
+  font-family: cursive;
+  font-size: 20px;
+  color: rgb(70,70,70);
+  margin: 30px auto;
+  padding: 10px 20px;
+  display: block;
+  width: 200px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+input[type="submit"]:hover
+{
+  background-color: #4fb8f0;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

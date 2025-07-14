@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>pool-satisfaction-survey</title>
+    <link rel="stylesheet" href="surveyform.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Roboto&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <section class="sub">
+    <h1 id="title">Pool Satisfaction Survey</h1>
+    <p id="description">2 minutes to improve your next swim, we are all ears!</p>
+    <form id="survey-form">
+    <fieldset class="info-border">
+      <div class="info">
+        <h3>Name:</h3>
+      <label id="name-label" for="name">
+       <input name="name" id="name" type="text" placeholder="Enter your full name" required/>
+      </label>
+      <h3>Email:</h3>
+      <label id="email-label" for="email">
+        <input name="email" type="email" id="email" min="13" max="120" placeholder="Enter your email address" required/>
+      </label>
+      <h3>Age:</h3>
+      <label id="number-label" for="number">
+      <input name="age" id="number" type="number" min="13" max="120" placeholder="Enter your age" required/>
+      </label>
+    </fieldset>
+    </div>
+    <fieldset>
+      <h3>How was your overall experience?</h3>
+      <div class="button">
+        <label for="very-satisfied">
+      <input type="radio" name="review" id="very-satisfied" value="very-satisfied" /> Very Satisfied
+      </label>
+      <label for="satisfied">
+      <input type="radio" name="review" id="satisfied" value="satisfied" /> Satisfied
+      </label>
+      <label for="neutral">
+      <input type="radio" name="review" id="neutral" value="neutral" /> Neutral
+      </label>
+      <label for="dissatisfied">
+      <input type="radio" name="review" id="dissatisfied" value="dissatisfied" /> Dissatisfied
+      </label>
+      <label for="very-dissatisfied">
+      <input type="radio" name="review" id="very-dissatisfied" value="very-dissatisfied" /> Very Dissatisfied
+      </label>
+      </div>
+    </fieldset>
+    <fieldset>
+      <h3>How would you rate the cleanliness of the pool water?</h3>
+      <select id="dropdown" name="water-review">
+      <option disabled selected value="">Select</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      </select>
+    </fieldset>
+    <fieldset>
+      <h3>What area do you think we should improve?</h3>
+      <div class="button">
+      <label for="changing-rooms">
+        <input type="checkbox" name="improvement" id="changing-rooms" value="changing-rooms"/> Changing Rooms
+      </label>
+      <label for="staff-behavior">
+        <input type="checkbox" name="improvement" id="staff-behavior" value="staff-behavior"/> Staff Behavior
+      </label>
+      <label for="lifeguard">
+        <input type="checkbox" name="improvement" id="lifeguard" value="lifeguard"/> Lifeguard
+      </label>
+      <label for="availability-of-equipment">
+        <input type="checkbox" name="improvement" id="availability-of-equipment" value="availability-of-equipment"/> Availability of equipment
+      </label>
+      <label for="booking">
+        <input type="checkbox" name="improvement" id="booking" value="booking"/> Booking
+      </label>
+      <label for="maintenance">
+        <input type="checkbox" name="improvement" id="maintenance" value="maintenance"/> Maintenance
+      </label>
+      <label for="none">
+        <input type="checkbox" name="improvement" id="none" value="none"/> None
+      </label>
+      </div>
+    </fieldset>
+    <fieldset>
+      <h3>Anything else you'd like to share?</h3>
+      <label for="opinion">
+      <textarea name="opinion" id="opinion" placeholder="Give us your valubale opinion" rows="6" cols="50"></textarea>
+      </label>
+    </fieldset>
+    <label for="submit">
+      <input type="submit" id="submit" name="submit"/>
+    </label>
+</form>
+  </body>
+</html>
